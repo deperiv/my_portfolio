@@ -137,8 +137,18 @@ $animationSpeed: 20s;
   
   .slide {
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 100px;
     width: 160px;
+  }
+
+  .icon {
+    display: flex;
+    transition: width 0.25s;
+  }
+  .icon:hover{
+    width: 100px;
+    cursor: pointer;
   }
 }
