@@ -44,6 +44,13 @@ export const targetElements = [
     },
   },
   {
+    element: ".slider_box",
+    animation: {
+      delay: 1200,
+      origin: "bottom",
+    },
+  },
+  {
     element: ".project-wrapper__text",
     animation: {
       delay: 500,
@@ -64,4 +71,22 @@ export const targetElements = [
       origin: "bottom",
     },
   },
+  {
+    element: ".btn-email",
+    animation: {
+      delay: 1100,
+      origin: "left",
+    },
+  },
+  {
+    element: ".btn-linkedin",
+    animation: {
+      delay: 1100,
+      origin: "right",
+    },
+  },
+
+
+  
+  
 ];
